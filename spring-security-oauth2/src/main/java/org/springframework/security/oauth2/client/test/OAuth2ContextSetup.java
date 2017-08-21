@@ -12,15 +12,6 @@
  */
 package org.springframework.security.oauth2.client.test;
 
-import java.io.IOException;
-import java.lang.reflect.Constructor;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.client.config.CookieSpecs;
@@ -54,6 +45,15 @@ import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.util.ClassUtils;
 import org.springframework.web.client.DefaultResponseErrorHandler;
 import org.springframework.web.client.RestOperations;
+
+import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.net.HttpURLConnection;
+import java.net.URI;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
